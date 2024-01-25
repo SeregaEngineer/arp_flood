@@ -7,7 +7,7 @@ import time
 for i in range(10,200):
     mac = str(RandMac())
     mac2 = str(RandMac())
-    #сеть должна быть такойже на какой сидит arpwatch иначе он богон кидает.
+   #сеть должна быть такой же на какой сидит arpwatch иначе он в богон кидает
     ip_src = f'192.168.100.{i}'#.format(*__import__('random').sample(range(0,255),1))
     ip_dst = f'192.168.100.{i+1}'#.format(*__import__('random').sample(range(0,255),1))
 
